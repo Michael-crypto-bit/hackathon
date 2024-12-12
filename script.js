@@ -9,7 +9,7 @@ var genre = getColumn(url, 7);
 
 function clearScreen(){
     console.log("running clear function")
-    document.getElementById("input").innerHTML = "";
+    document.getElementById("input").value = "";
     console.log("ending clear function")
     }
 
@@ -23,5 +23,13 @@ for(var i = 0; i<type.length; i++){
     }
 }
 console.log(Movies);
+var matchingMovie = [];
+function createList(genre1, rating1,){
+    for(var i = 0; i<type.length; i++){
+        if(rating[i] == "R"){
+            matchingMovie.push(names[i])
+        }
 
-
+    }
+}
+console.log(matchingMovie)
