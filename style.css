@@ -1,7 +1,14 @@
 body{
     background-color: antiquewhite;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
+        font-family: "Agu Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "MORF" 0;
+    }
+      
 
 button{
     background-color: rgb(157, 244, 255);
@@ -10,3 +17,6 @@ button{
     border: none;
     margin-bottom: 10px;
   }
+
+
+{
