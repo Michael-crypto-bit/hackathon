@@ -74,3 +74,20 @@ function createList(genre1){
     }
 }
 console.log(matchingMovie) 
+console.log(matchingMovie)
+var uniqueGenre = [];
+for(var i=0; i< genre.length; i++){
+    if(!uniqueGenre.includes(genre[i])){
+        uniqueGenre.push(genre[i])
+    }
+}
+console.log(uniqueGenre)
+
+var genreSelect = docment.getElementById("genre");
+for(var i = 0; i<type.length; i++){
+    // create a new option element
+    var el = document.createElement("option")
+    el.innerHTML = uniqueGenre[i]
+    el.value = uniqueGenre[i]
+    genreSelect.appendChild(el);
+}
