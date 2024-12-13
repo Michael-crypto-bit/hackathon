@@ -14,7 +14,8 @@ function clearScreen(){
     console.log("ending clear function")
     }
 var genre1;
-
+genre1 = document.getElementById("genre").value;
+console.log(genre1);
 
 
 function getMovies(){
@@ -31,6 +32,8 @@ for(var i = 0; i<type.length; i++){
     }
 }
 console.log(Movies);
+console.log("");
+console.log(TvShows);
 }
 
 
@@ -60,14 +63,14 @@ console.log(Movies);
 
 
 
-// var matchingMovie = [];
-// genre1 = document.getElementById("input").value
-// function createList(genre1){
-//     for(var i = 0; i<type.length; i++){
-//         if(rating[i] == "R"){
-//             matchingMovie.push(names[i])
-//         }
+var matchingMovie = [];
+function createList(genre1){
+    genre1 = document.getElementById("genre").value
+    for(var i = 0; i<type.length; i++){
+        if(rating[i] == "R"){
+            matchingMovie.push(names[i])
+        }
 
-//     }
-// }
-// console.log(matchingMovie)
+    }
+}
+console.log(matchingMovie) 
