@@ -24,7 +24,7 @@ for(var i = 0; i<type.length; i++){
 }
 console.log(Movies);
 var matchingMovie = [];
-function createList(genre1, rating1,){
+function createList(genre1){
     for(var i = 0; i<type.length; i++){
         if(rating[i] == "R"){
             matchingMovie.push(names[i])
@@ -32,4 +32,4 @@ function createList(genre1, rating1,){
 
     }
 }
-console.log(matchingMovie)
+console.log(jdkd, jdjdj)
