@@ -19,23 +19,55 @@ var genre1;
 
 function getMovies(){
 var Movies = [];
+var TvShows = [];
 for(var i = 0; i<type.length; i++){
     if(type[i].includes("Movie")){
         Movies.push(names[i]);
+        
+    }
+    else if(type[i].includes("TV Show")){
+        TvShows.push(names[i]);
         
     }
 }
 console.log(Movies);
 }
 
-var matchingMovie = [];
-genre1 = document.getElementById("input").value
-function createList(genre1){
-    for(var i = 0; i<type.length; i++){
-        if(rating[i] == "R"){
-            matchingMovie.push(names[i])
-        }
 
-    }
-}
-console.log(matchingMovie)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var matchingMovie = [];
+// genre1 = document.getElementById("input").value
+// function createList(genre1){
+//     for(var i = 0; i<type.length; i++){
+//         if(rating[i] == "R"){
+//             matchingMovie.push(names[i])
+//         }
+
+//     }
+// }
+// console.log(matchingMovie)
