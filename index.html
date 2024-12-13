@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html> 
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Netflix finder</title> <!-- this should be changed-->
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<h1>Dog Data Practice Problems</h1>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
 <body>
-    
-</body>
+    <center>
+        <H1>Netflix Finder</H1>
+        <H4> Search</H4>
+<input id="input">
+<br>
+<H9>Genre</H9>
+<br>
+<select id="genre">
+    <option value=""></option>
+	<option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+  </select>
+<H6>Release Date</H6>
+<H3> 1950 ---> 2020
+    <br>
+<input type="range" min="1950" max="2020" value="25" id="release date" class="slider" >
+<br>
+<br>
+
+<button onclick="clearScreen()" id="go">go</button>
+</center> 
     <script src="utils.js"></script>
     <script src="script.js"></script>
-  
-</html>
+</body>
+   
+
+    </html>
