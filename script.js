@@ -17,7 +17,8 @@ var genre = getColumn(url, 7);
 // var input = document.getElementById("input").innerHTML;
         
 
-   
+//This function takes the the usere's input and looks through the data set, and if it gets a 
+// a matching pair, it will send thos names back with the release year and rating.
 function sortMovie(chosenRating, release){
     console.log(release)
     // console.log(release_year[0])

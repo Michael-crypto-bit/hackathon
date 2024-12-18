@@ -9,6 +9,9 @@ while( i<raw_release_year.length){
     i++;
 }
 var feedback = [];
+// This function sets eveything to lowercase so it can find answers 
+// without having to worry about capitalization, and it matches all movies
+// with what the user has inputed, and it returns the movie name, release year, and rating
 function searchMovies(){
 feedback.pop(0)
 feedback.pop(0)
@@ -27,9 +30,6 @@ for(var i = 0; i<names.length; i++){
         feedback.push("<br>" + names[i] + " " + release_year[i] + " " + rating[i]);
         
     }
-    // else{
-    //     console.log("not found")
-    // }++
 }
 console.info(feedback);
 document.getElementById("input").value = "";
