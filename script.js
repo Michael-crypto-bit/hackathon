@@ -31,6 +31,9 @@ function sortMovie(chosenRating, release){
     }
 
     console.log(finalMovies)
+    if(finalMovies.length == 0){
+        document.getElementById("output").innerHTML = " we have no record of a movie or tv show with those parameters, please check that all the paramters are correct, then try again. If this problem persists please reload"
+    } else{
     document.getElementById("output").innerHTML = finalMovies;
-
+    }
 }
