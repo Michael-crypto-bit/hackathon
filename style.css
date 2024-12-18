@@ -39,3 +39,18 @@ button{
     border: none;
     margin-bottom: 10px;
   }
+Header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(157, 244, 255);
+    padding: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.outputBox{
+    min-height: 88px;
+    font-size: 15px;
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: rgb(157, 244, 255);
+    padding: 5px;
+  }
