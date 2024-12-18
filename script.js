@@ -24,7 +24,7 @@ function sortMovie(chosenRating, release){
     var finalMovies = [];
     for(var i = 0; i<names.length; i++){
         if(rating[i]==chosenRating && release_year[i] == release){
-           finalMovies.push(names[i] + ": " + release_year[i]);
+           finalMovies.push(names[i] + ": " + release_year[i] + ": "+ rating[i]);
            
         }
     }
